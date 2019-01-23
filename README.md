@@ -8,7 +8,7 @@ All credit goes to: https://github.com/groove-x/mqtt_bridge
 Used to control diodes through ROS topics and MQTT.
 
 ## Setup
-Install mosquitto: sudo apt-get install mosquitto mosquitto-clients
+Install mosquitto: ```$ sudo apt-get install mosquitto mosquitto-clients```
 
 Install other requirements: pip install -r requirements.txt
 
