@@ -9,8 +9,11 @@ Used to control diodes through ROS topics and MQTT.
 
 ## Setup
 Install mosquitto: sudo apt-get install mosquitto mosquitto-clients
-\n Install other requirements: pip install -r requirements.txt
+
+Install other requirements: pip install -r requirements.txt
+
 Make Python scripts executable - Navigate to /mqtt_bridge/scripts: "chmod +x mqtt_bridge_node.py" and "chmod +x mqtt_server_node.py" (the latter is not really required, it's part of another project).
+
 Install pymongo for BSON: pip install pymongo
 
 ### Config file
