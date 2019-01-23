@@ -10,17 +10,17 @@ Used to control diodes through ROS topics and MQTT.
 ## Setup
 Install mosquitto: ```$ sudo apt-get install mosquitto mosquitto-clients```
 
-Install other requirements: pip install -r requirements.txt
+Install other requirements: ```$ pip install -r requirements.txt```
 
-Make Python scripts executable - Navigate to /mqtt_bridge/scripts: "chmod +x mqtt_bridge_node.py" and "chmod +x mqtt_server_node.py" (the latter is not really required, it's part of another project).
+Make Python scripts executable - Navigate to /mqtt_bridge/scripts and type ```$ chmod +x mqtt_bridge_node.py``` and ```$ chmod +x mqtt_server_node.py``` (the latter is not really required, it's part of another project).
 
-Install pymongo for BSON: pip install pymongo
+Install pymongo for BSON: ```$ pip install pymongo```
 
 ### Config file
 Change the config file /mqtt_bridge/config/diode_launcher_params.yaml to define bridges between MQTT and ROS and to define the host.
 
 ### Running
-To run the diode_node use: roslaunch diode_node diode_node_launcher.launch
+To run the diode_node use: ```$ roslaunch diode_node diode_node_launcher.launch```
 
 ## License
 
