@@ -16,6 +16,8 @@ Make Python scripts executable - Navigate to /mqtt_bridge/scripts and type ```$ 
 
 Install pymongo for BSON: ```$ pip install pymongo```
 
+Might need: ```$ sudo apt-get install ros-$distro-rosbridge-suite```
+
 ### Config file
 Change the config file /mqtt_bridge/config/diode_launcher_params.yaml to define bridges between MQTT and ROS and to define the host.
 
